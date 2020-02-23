@@ -19,7 +19,7 @@ https://dry-tor-28046.herokuapp.com/
 4. 	run command `ng serve -o`
 5. 	the website should open in your browser
 
-Website is design to work both on desktop version and on mobile:
+## Website is design to work both on desktop version and on mobile:
 * Desktop version:
 
 ![desktop version](http://artiom.no/images/oslomet/screenshot/desktop.gif)

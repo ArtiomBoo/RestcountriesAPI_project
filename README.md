@@ -32,7 +32,7 @@ otherwise there will be error on the google maps: "Oops! Something went wrong."
 ## Demo:
 https://dry-tor-28046.herokuapp.com/ (first time it may load slow)
 
-### Website is design to work both on desktop version and on mobile:
+### Website is designed to work on both desktop version and mobile:
 * Desktop version:
 
 ![desktop version](http://artiom.no/images/oslomet/screenshot/desktop.gif)

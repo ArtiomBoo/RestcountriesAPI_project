@@ -16,6 +16,8 @@ Angular CLI: https://cli.angular.io/
 5. 	the website should open in your browser
 
 Website is design to work both on desktop version and on mobile:
+![desktop version](http://artiom.no/images/oslomet/screenshot/desktop.gif)
+![mobile version](http://artiom.no/images/oslomet/screenshot/mobile.gif)
 
 Logo icon used as button to go in the front page.
 

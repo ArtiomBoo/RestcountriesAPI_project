@@ -5,16 +5,20 @@ To navigate on the webpage:
 * Logo can be used as a button to go to the front page (as it used to be on the most of the webpages).
 * On the contry infomation page you can press on border countries to open information about them.
 
+## Restcountries API
+
 ## Google Maps JavaScript API
 Unfortunately due to security reason I cannot post my API key publicly, if you have your key you can post it in `/src/app/app.module.ts` file
 otherwise there will be error on the google maps: "Oops! Something went wrong."
 
-## To run the project you will need to install:
+
+## To run the project localy:
+### You will need to install:
 * NodeJS: https://nodejs.org/en/download/
 * TypeScript: https://www.npmjs.com/package/typescript
 * Angular CLI: https://cli.angular.io/
 
-## How to run:
+### How to run:
 1. 	download all files
 2. 	open directory in terminal
 3. 	run command `npm install`
@@ -25,7 +29,7 @@ otherwise there will be error on the google maps: "Oops! Something went wrong."
 ## Demo:
 https://dry-tor-28046.herokuapp.com/
 
-## Website is design to work both on desktop version and on mobile:
+### Website is design to work both on desktop version and on mobile:
 * Desktop version:
 
 ![desktop version](http://artiom.no/images/oslomet/screenshot/desktop.gif)

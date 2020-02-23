@@ -9,9 +9,6 @@ To navigate on the webpage:
 Unfortunately due to security reason I cannot post my API key publicly, if you have your key you can post it in `/src/app/app.module.ts` file
 otherwise there will be error on the google maps: "Oops! Something went wrong."
 
-## Demo:
-https://dry-tor-28046.herokuapp.com/
-
 ## To run the project you will need to install:
 * NodeJS: https://nodejs.org/en/download/
 * TypeScript: https://www.npmjs.com/package/typescript
@@ -23,6 +20,10 @@ https://dry-tor-28046.herokuapp.com/
 3. 	run command `npm install`
 4. 	run command `ng serve -o`
 5. 	the website should open in your browser
+
+
+## Demo:
+https://dry-tor-28046.herokuapp.com/
 
 ## Website is design to work both on desktop version and on mobile:
 * Desktop version:

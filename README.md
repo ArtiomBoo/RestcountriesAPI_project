@@ -19,7 +19,6 @@ otherwise there will be error on the google maps: "Oops! Something went wrong."
 ## To run the project localy:
 ### You will need to install:
 * NodeJS: https://nodejs.org/en/download/
-* TypeScript: https://www.npmjs.com/package/typescript
 * Angular CLI: https://cli.angular.io/
 
 ### How to run:

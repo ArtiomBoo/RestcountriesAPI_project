@@ -4,9 +4,9 @@
 https://dry-tor-28046.herokuapp.com/
 
 ## To run the project you will need to install:
-NodeJS: https://nodejs.org/en/download/
-TypeScript: https://www.npmjs.com/package/typescript
-Angular CLI: https://cli.angular.io/
+* NodeJS: https://nodejs.org/en/download/
+* TypeScript: https://www.npmjs.com/package/typescript
+* Angular CLI: https://cli.angular.io/
 
 ## How to run:
 1. 	download all files

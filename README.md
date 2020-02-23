@@ -5,6 +5,7 @@ To create a simple web page that uses https://restcountries.eu API to get inform
 To navigate on the web page:
 * Logo can be used as a button to go to the front page (as it is on the most web pages).
 * On the country information page you can press on border countries to open more information about them.
+* Web page use dynamic search that filtrates all countries after values that is presented in restcountries API, so if you search for example for specific languege you will get a list of the countries that speak that language.
 
 ## Restcountries API
 * https://restcountries.eu/rest/v2/all was used for the search function.

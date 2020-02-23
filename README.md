@@ -6,11 +6,13 @@ To navigate on the webpage:
 * On the contry infomation page you can press on border countries to open information about them.
 
 ## Restcountries API
+* https://restcountries.eu/rest/v2/all was used for the search function.
+* https://restcountries.eu/rest/v2/region/{region} <Africa, Americas, Asia, Europe, Oceania> to get information about each region 
+* https://restcountries.eu/rest/v2/alpha/{code} to get information about country, it wasn't nessesary since all information about country could be gotten from https://restcountries.eu/rest/v2/region/, but since I wanted to make it possible to navigite to the border countries from the contry information page. It was designed in such way to avoid the the problem if the border country is located in another region.
 
 ## Google Maps JavaScript API
 Unfortunately due to security reason I cannot post my API key publicly, if you have your key you can post it in `/src/app/app.module.ts` file
 otherwise there will be error on the google maps: "Oops! Something went wrong."
-
 
 ## To run the project localy:
 ### You will need to install:

@@ -11,7 +11,7 @@ To navigate on the web page:
 * https://restcountries.eu/rest/v2/alpha/{code} to get information about country, it wasn't necessary since all information about country could be gotten from https://restcountries.eu/rest/v2/region/, but since I wanted to make it possible to navigate to the border countries from the country information page. It was designed in such way to avoid the problem if the border country is located in another region.
 
 ## Google Maps JavaScript API
-Unfortunately due to security reason I cannot post my API key publicly, if you have your key you can post it in `/src/app/app.module.ts` file
+Unfortunately due to security reason I cannot post my API key publicly, if you have your key you can add it in `/src/app/app.module.ts` file
 otherwise there will be error on the google maps: "Oops! Something went wrong."
 
 ## To run the project localy:

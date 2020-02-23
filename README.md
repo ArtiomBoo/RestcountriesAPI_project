@@ -1,8 +1,9 @@
 # Project
-Logo icon used as button to go in the front page.
+This project was generated with Angular CLI, to create a simple webpage that uses https://restcountries.eu API to get information about countries as well as Google Maps JavaScript API (https://developers.google.com/maps/documentation/javascript/tutorial) to show contry coordinats from restcontries on the google maps.
 
-On the contry infomation page you can press on border countries to open information about them.
-Country information page also use google maps API to show coordinates on the map.
+To navigate on the webpage:
+* Logo can be used as a button to go to the front page (as it used to be on the most of the webpages).
+* On the contry infomation page you can press on border countries to open information about them.
 
 ## Demo:
 https://dry-tor-28046.herokuapp.com/

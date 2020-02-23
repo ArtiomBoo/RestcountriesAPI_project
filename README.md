@@ -21,6 +21,8 @@ https://dry-tor-28046.herokuapp.com/
 
 Website is design to work both on desktop version and on mobile:
 * Desktop version:
+
 ![desktop version](http://artiom.no/images/oslomet/screenshot/desktop.gif)
 * Mobile version:
+
 ![mobile version](http://artiom.no/images/oslomet/screenshot/mobile.gif)

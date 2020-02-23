@@ -1,5 +1,5 @@
 # Project
-This project was generated with Angular CLI, to create a simple webpage that uses https://restcountries.eu API to get information about countries as well as Google Maps JavaScript API (https://developers.google.com/maps/documentation/javascript/tutorial) to show contry coordinats from restcontries on the google maps.
+This project was generated with Angular CLI, to create a simple webpage that uses https://restcountries.eu API to get information about countries as well as Google Maps JavaScript API (https://developers.google.com/maps/documentation/javascript/tutorial) to show contry coordinats (restcontries) on the google maps.
 
 To navigate on the webpage:
 * Logo can be used as a button to go to the front page (as it used to be on the most of the webpages).

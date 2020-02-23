@@ -1,4 +1,8 @@
 # Project
+Logo icon used as button to go in the front page.
+
+On the contry infomation page you can press on border countries to open information about them.
+Country information page also use google maps API to show coordinates on the map.
 
 ## Demo:
 https://dry-tor-28046.herokuapp.com/
@@ -16,10 +20,7 @@ https://dry-tor-28046.herokuapp.com/
 5. 	the website should open in your browser
 
 Website is design to work both on desktop version and on mobile:
+Desktop version:
 ![desktop version](http://artiom.no/images/oslomet/screenshot/desktop.gif)
+Mobile version:
 ![mobile version](http://artiom.no/images/oslomet/screenshot/mobile.gif)
-
-Logo icon used as button to go in the front page.
-
-On the contry infomation page you can press on border countries to open information about them.
-Country information page also use google maps API to show coordinates on the map.

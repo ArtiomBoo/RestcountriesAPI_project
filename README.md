@@ -26,3 +26,25 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 # RestcountriesAPI_project
+
+## Demo:
+https://dry-tor-28046.herokuapp.com/
+
+## To run the project you will need to install:
+NodeJS: https://nodejs.org/en/download/
+TypeScript: https://www.npmjs.com/package/typescript
+Angular CLI: https://cli.angular.io/
+
+## How to run:
+1. 	download all files
+2. 	open directory in terminal
+3. 	run command "npm install"
+4. 	run command "ng serve -o"
+5. 	the website should open in your browser
+
+Website is design to work both on desktop version and on mobile:
+
+Logo icon used as button to go in the front page.
+
+On the contry infomation page you can press on border countries to open information about them.
+Country information page also use google maps API to show coordinates on the map.

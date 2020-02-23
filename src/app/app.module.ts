@@ -35,7 +35,7 @@ import { Ng2SearchPipeModule } from "ng2-search-filter";
     FormsModule,
     Ng2SearchPipeModule,
     AgmCoreModule.forRoot({
-      apiKey: "AIzaSyD5-Awv8sUsfYxKd3DBnsJ4OUqIddv4P7M"
+      apiKey: "********" //Google Maps JavaScript API
     })
   ],
   providers: [],

@@ -26,4 +26,4 @@ https://dry-tor-28046.herokuapp.com/
 ![desktop version](http://artiom.no/images/oslomet/screenshot/desktop.gif)
 * Mobile version:
 
-![mobile version](http://artiom.no/images/oslomet/screenshot/mobile.gif)
+![mobile version](http://artiom.no/images/oslomet/screenshot/mobile.gif | width=100))

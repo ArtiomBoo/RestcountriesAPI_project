@@ -1,0 +1,70 @@
+<div class="navigation-bar">
+  <div id="navigation-container">
+    <a href="/">
+      <img alt="Front page" src="http://artiom.no/images/oslomet/globe.png">
+      </a>
+    <ul>
+      <li><a href="/search">Search</a></li>
+    </ul>
+  </div>
+</div>
+<div class="container">
+  <div class="my_body_part_margin">
+    <h1>Choose region:</h1>
+    <div [routerLink]="['/americas']" class="card" style="width: 225px;">
+      <img
+        class="card-img-top"
+        src="http://artiom.no/images/oslomet/america.png"
+        alt="americas"
+        style="width:100"
+      />
+      <div class="card-body">
+        <h2 class="card-title" style="text-align: center;">Americas</h2>
+      </div>
+    </div>
+    <div [routerLink]="['/europe']" class="card" style="width: 225px;">
+      <img
+        class="card-img-top"
+        src="http://artiom.no/images/oslomet/europe.png"
+        alt="europe"
+        style="width:100"
+      />
+      <div class="card-body">
+        <h2 class="card-title" style="text-align: center;">Europe</h2>
+      </div>
+    </div>
+    <div [routerLink]="['/asia']" class="card" style="width: 225px;">
+      <img
+        class="card-img-top"
+        src="http://artiom.no/images/oslomet/asia.png"
+        alt="asia"
+        style="width:100"
+      />
+      <div class="card-body">
+        <h2 class="card-title" style="text-align: center;">Asia</h2>
+      </div>
+    </div>
+    <div [routerLink]="['/africa']" class="card" style="width: 225px;">
+      <img
+        class="card-img-top"
+        src="http://artiom.no/images/oslomet/africa.png"
+        alt="africa"
+        style="width:100"
+      />
+      <div class="card-body">
+        <h2 class="card-title" style="text-align: center;">Africa</h2>
+      </div>
+    </div>
+    <div [routerLink]="['/oceania']" class="card" style="width: 225px;">
+      <img
+        class="card-img-top"
+        src="http://artiom.no/images/oslomet/oceania.png"
+        alt="oceania"
+        style="width:100"
+      />
+      <div class="card-body">
+        <h2 class="card-title" style="text-align: center;">Oceania</h2>
+      </div>
+    </div>
+  </div>
+</div>

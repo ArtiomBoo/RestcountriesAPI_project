@@ -1,0 +1,28 @@
+<div class="navigation-bar">
+    <div id="navigation-container">
+        <a href="/">
+            <img alt="Front page" src="http://artiom.no/images/oslomet/globe.png">
+            </a>
+      <ul>
+        <li><a href="javascript:history.back()">&laquo; Go back</a></li>
+        <li><a href="/search">Search</a></li>
+      </ul>
+    </div>
+</div>
+
+<div class="container">
+    <div class = "my_body_part_margin">
+        <h1>Countries in Asia</h1>
+        <div  class="row" style="justify-content: center;" >
+            <div *ngFor="let c of cList ">
+                <div [routerLink]="['/asia',c.alpha2Code ]" class="card" style="width: 150px;">
+                    <img class="card-img-top" src="{{c.flag}}" alt="Card image cap" style="width:9rem">
+                    <div class="card-body">
+                        <h5 class="card-title">{{c.name}}</h5>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div> 
+    
+</div>

@@ -1,0 +1,79 @@
+<div class="navigation-bar">
+  <div id="navigation-container">
+    <a href="/">
+      <img alt="Front page" src="http://artiom.no/images/oslomet/globe.png" />
+    </a>
+    <ul>
+      <li><a href="javascript:history.back()">&laquo; Go back</a></li>
+      <li><a href="/search">Search</a></li>
+    </ul>
+  </div>
+</div>
+<div class="my_body_part_margin">
+  <div class="section group">
+    <div class="col span_1_of_3">
+      <h1>{{ country.name }}</h1>
+      <hr class="dashed">
+      <table>
+        <tbody>
+          <tr>
+            <td><h3>Native name:</h3></td>
+            <td>{{ country.nativeName }}</td>
+          </tr>
+          <tr>
+            <td><h3>Population:</h3></td>
+            <td>{{ country.population }}</td>
+          </tr>
+          <tr>
+            <td><h3>Area:</h3></td>
+            <td>{{ country.area }} sqrkm</td>
+          </tr>
+          <tr>
+            <td><h3>Languages:</h3></td>
+            <td>
+              <div
+                *ngFor="let l of country.languages"
+                style="display: inline-block;"
+              >
+                <span>{{ l.name }},&nbsp;</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><h3>Border Countries:</h3></td>
+            <td>
+              <div *ngFor="let l of country.borders" style="display: inline-block;">
+                <div [routerLink]="['/country', l]">
+                  <span>{{ l }},&nbsp;</span>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div style="clear:both"></div>
+    </div>
+
+    <div class="col span_1_of_3">
+      <img
+        class="card-img-top"
+        src="{{ country.flag }}"
+        alt="Card image cap"
+        style="width:12rem"
+      />
+
+      <agm-map
+        style="height: 300px; width: 300px;"
+        [latitude]="country.latlng[0]"
+        [longitude]="country.latlng[1]"
+        [zoom]="3"
+      >
+        <agm-marker
+          [latitude]="country.latlng[0]"
+          [longitude]="country.latlng[1]"
+        ></agm-marker>
+      </agm-map>
+    </div>
+  </div>
+</div>

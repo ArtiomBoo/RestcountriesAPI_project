@@ -20,7 +20,7 @@ https://dry-tor-28046.herokuapp.com/
 5. 	the website should open in your browser
 
 Website is design to work both on desktop version and on mobile:
-Desktop version:
+* Desktop version:
 ![desktop version](http://artiom.no/images/oslomet/screenshot/desktop.gif)
-Mobile version:
+* Mobile version:
 ![mobile version](http://artiom.no/images/oslomet/screenshot/mobile.gif)
